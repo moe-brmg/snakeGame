@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Snake!</title>
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Welcome to Snake!</h1>
+      <div class="col-3">
+        <p id="score"></p>
+        <svg
+          id="board"
+          xmlns:svg="http://www.w3.org/2000/svg"
+          version="1.0"
+          xmlns="http://www.w3.org/2000/svg"
+          width="640"
+          height="640"
+        ></svg>
+      </div>
+      <div class="col-2">
+        <p>Instructions:</p>
+        <ul>
+          <li>Eat food and grow bigger!</li>
+        </ul>
+        <button id="start">Play!</button>
+        <script src="dist/bundle.js"></script>
+
+        <div class="endGame" id="endGame">
+          <div class="box">
+            <h3>Congratulation!</h3>
+            <p>Your score is<span id="endScore"></span></p>
+            <p>Please save your score!</p>
+            <form action="" id="form">
+              <input
+                type="text"
+                class="name"
+                id="nameInput"
+                placeholder="Name"
+                required
+              />
+              <input type="submit" value="Save" />
+            </form>
+          </div>
+        </div>
+
+        <div id="leaderBoard">
+          <h2>High Score Leader-board</h2>
+          <ol id="lead">
+            <li>no records</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
