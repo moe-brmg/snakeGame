@@ -1,0 +1,102 @@
+.container {
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+.container:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.col-3 {
+  width: 60%;
+  float: left;
+}
+
+.col-2 {
+  width: 40%;
+  float: left;
+}
+
+@media only screen and (max-width: 1100px) {
+  .col-3,
+  .col-2 {
+    width: 100%;
+  }
+}
+
+#board {
+  background-color: #ddd;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid black;
+}
+#start {
+  background-color: lightseagreen;
+}
+
+.endGame {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 100vh;
+  width: 100vw;
+}
+
+.box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  background-color: #fff;
+}
+.container {
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+.container:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.col-3 {
+  width: 60%;
+  float: left;
+}
+
+#board {
+  background-color: #ddd;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid black;
+}
+#start {
+  background-color: lightseagreen;
+}
+
+.endGame {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 100vh;
+  width: 100vw;
+}
+
+.box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  background-color: #fff;
+}

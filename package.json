@@ -1,0 +1,26 @@
+{
+  "name": "snake-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "clean": "rimraf dist",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx webpack --config webpack.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://moe-brmg.github.io/snakeGame/",
+  "devDependencies": {
+    "rimraf": "^3.0.2",
+    "ts-loader": "^8.0.3",
+    "typescript": "^4.0.2",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "gh-pages": "^3.1.0",
+    "rxjs": "^6.6.3"
+  }
+}
